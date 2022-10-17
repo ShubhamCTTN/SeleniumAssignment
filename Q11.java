@@ -42,6 +42,7 @@ public class Q11 {
 		// d-
 		driver.getTitle().compareTo("Register");
 		System.out.println(driver.getTitle());
+		driver.close();
 	}
 
 }
